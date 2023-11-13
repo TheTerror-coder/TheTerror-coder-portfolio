@@ -3938,6 +3938,7 @@ input, select, textarea {
 
 	body.is-menu-visible #menu {
 		pointer-events: auto;
+		
 		opacity: 1;
 		visibility: visible;
 	}
@@ -3950,3 +3951,7 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+	body .prototype, body .italic-information {
+		color: rgb(207, 214, 195);
+	}
